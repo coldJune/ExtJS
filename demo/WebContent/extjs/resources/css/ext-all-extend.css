@@ -1,0 +1,14 @@
+/*
+ * Ext JS Library 2.2.1
+ * Copyright(c) 2006-2009, Ext JS, LLC.
+ * licensing@extjs.com
+ * 
+ * http://extjs.com/license
+ */
+
+.icon-expand-all {
+    background-image: url(../images/default/tree/expand-all.gif) !important;
+}
+.icon-collapse-all {
+    background-image: url(../images/default/tree/collapse-all.gif) !important;
+}
