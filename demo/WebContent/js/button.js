@@ -85,3 +85,14 @@ Ext.onReady(function(){
 	
 });
 
+//button组件常用的属性、方法及事件
+//
+//* 属性
+//
+//text:字符串，显示按钮上的文字
+//minWidth:整型,最小宽度
+//
+//* 事件
+//
+//handle:首发方法处理事件
+//listeners:事件监听

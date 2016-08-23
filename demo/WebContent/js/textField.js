@@ -53,3 +53,20 @@ Ext.onReady(function(){
 	
 });
 
+//textfield组件常用属性、方法和事件
+//
+//* 属性
+//
+//allowBlank:是否允许为空，默认值为true
+//blankText:空验证失败后显示的提示信息
+//emptyText:在一个空字段中默认显示的信息
+//grow:字段是否自动伸展和收缩，默认为false
+//growMin:收缩的最小宽度
+//growMax:伸展的最大宽度
+//inputType:字段类型，默认为text
+//maskRe:用于过滤不匹配字符输入的正则表达式
+//maxLength:字段允许输入的最大长度
+//maxLengthText:最大长度验证失败显示的提示信息
+//minLength:字段允许输入的最小长度
+//minLengthText:最小长度验证失败显示的提示信息
+
