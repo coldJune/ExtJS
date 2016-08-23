@@ -100,13 +100,13 @@ Ext.onReady(function(){
 	});
 	
 	//-------------------------单选组开始----------------------//
-	var radiogroup = new Ext.form.RadioGroup({
+	var radiogroup = new Ext.form.RadioGroup({			//创建一个新的单选按钮组
 		fieldLabel:'性别',
 		width:100,
 		items:[{
-			name:'sex',
-			inputValue:'0',
-			boxLabel:'男',
+			name:'sex',								//单选按钮组按照name属性来区分，同一组中的单选按钮才能单选，如果name属性设置错误，该按钮将会被认为是其他组
+			inputValue:'0',							//选项框的值
+			boxLabel:'男',							//选项框后面的文字说明
 			checked:true
 		},{
 			name:'sex',
@@ -116,7 +116,7 @@ Ext.onReady(function(){
 	});
 	//获取单选组的值
 	radiogroup.on('change',function(rdgroup,checked){
-		alert(checked.getRawValue());
+		alert(checked.getRawValue());			//获取选择框中的选中值，由于单选框只有一个选中值，可以直接获取，而复选框可以多选，所以要循环取出
 	});
 	//-------------------------单选组结束----------------------//
 	//-------------------------复选组开始---------------------//
