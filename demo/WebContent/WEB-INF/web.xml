@@ -20,4 +20,12 @@
     <url-pattern>/Area.action</url-pattern>
   </servlet-mapping>
   
+  <servlet>
+  	<servlet-name>upload</servlet-name>
+  	<servlet-class>com.jun.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>upload</servlet-name>
+ 	<url-pattern>/Upload.action</url-pattern>
+  </servlet-mapping>
 </web-app>
