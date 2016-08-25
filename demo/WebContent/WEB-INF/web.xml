@@ -29,5 +29,12 @@
  	<url-pattern>/Upload.action</url-pattern>
   </servlet-mapping>
   
- 
+   <servlet>
+  	<servlet-name>Tree</servlet-name>
+  	<servlet-class>com.jun.servlet.TreeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Tree</servlet-name>
+ 	<url-pattern>/Tree.action</url-pattern>
+  </servlet-mapping>
 </web-app>
