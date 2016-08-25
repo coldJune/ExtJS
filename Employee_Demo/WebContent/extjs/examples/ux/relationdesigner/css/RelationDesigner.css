@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+.relation-block {
+    cursor: pointer;
+}
+.relation-over {
+    background-color:#EFEFEF;
+    cursor: pointer;
+}
+.relation-selected {
+    background-color: #DFE8F6;
+    cursor: pointer;
+}
+.relation-block td{
+	font-size: 12px;
+	color:black;
+}
+/**
+ * tab页签自定义样式
+ */
+.rel-grid-tab{}
+.rel-grid-tab ul.x-tab-strip-top{
+	background-image:url("../images/tab-title-bg.gif");
+	background-color: transparent;
+}
+.x-tab-strip SPAN.x-tab-strip-text{
+	font:15px 黑体;
+	color:white;
+}
+.x-tab-strip-active SPAN.x-tab-strip-text{
+	color:#416aa3;
+	font-weight: bold;
+}
+.x-tab-strip-top .x-tab-right{
+	background-image: url("../images/tab-left.gif");
+}
+.x-tab-strip-top .x-tab-strip-active .x-tab-right{
+	top:2px;
+}
+.x-tab-strip-top .x-tab-left{
+	background-image: url("");
+}
+.x-tab-strip-top .x-tab-strip-active .x-tab-left{
+	background-image: url("../images/tab-right.gif");
+	background-position: right;
+	background-repeat: no-repeat;
+}
+.x-tab-strip-top .x-tab-strip-inner{
+	background-image: url("../images/tab-center.gif");
+}
+.x-tab-strip-top .x-tab-strip-active .x-tab-strip-inner{
+	background-position: 0px 0px;
+}
+
+/*
+ * 关联视图-非焦点样式
+ */
+.block-sel-l{
+	background: transparent no-repeat 0 0;
+	background-image: url("../images/block_un_l.gif");
+	padding-left: 4px;
+	overflow: hidden;
+	zoom:1;
+}
+.block-sel-c{
+	height:28px;
+	background: transparent repeat-x 0 0;
+	padding-top: 2px;
+	padding-left: 10px;
+	background-image: url("../images/block_un_c.gif");
+	overflow: hidden;
+}
+.block-sel-r{
+	background: transparent no-repeat right 0 0;
+	background-image: url("../images/block_un_r.gif");
+	padding-right: 4px;
+	overflow: hidden;
+	zoom:1;
+}
+/**
+ * 关联视图-焦点样式
+ */
+.block-hover .relation-block td{
+	color:white;
+}
+.block-hover .block-sel-l{
+	background-image: url("../images/block_sel_l.gif");
+}
+.block-hover .block-sel-c{
+	background-image: url("../images/block_sel_c.gif");
+}
+.block-hover .block-sel-r{
+	background-image: url("../images/block_sel_r.gif");
+}
