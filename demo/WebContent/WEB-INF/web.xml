@@ -46,4 +46,13 @@
   	<servlet-name>Ajax</servlet-name>
  	<url-pattern>/Ajax.action</url-pattern>
   </servlet-mapping>
+  
+    <servlet>
+  	<servlet-name>Category</servlet-name>
+  	<servlet-class>com.jun.servlet.Category</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Category</servlet-name>
+ 	<url-pattern>/Category.action</url-pattern>
+  </servlet-mapping>
 </web-app>
